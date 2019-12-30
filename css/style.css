@@ -1,0 +1,689 @@
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+    display: block;
+}
+
+body {
+    font: 12px/18px;
+    font-family: 'Dosis', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+/* Header
+.........................................................................*/
+
+#logo {
+    width: 27%;
+    margin-left: 2%
+}
+
+header {
+    background-color: white;
+}
+
+/* Burger menu
+...............................*/
+
+.burger {
+    width: 45px;
+    height: 5px;
+    background-color: #18435a;
+    margin: 9px;
+    border-radius: 20px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.dropdownto {
+    display: none;
+}
+
+#burgerbuttom {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+#burgerdropdown {
+    display: inline-block;
+    float: right;
+    margin-top: 5%;
+    margin-right: 2%;
+}
+
+#burgercontent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    right: 0;
+}
+
+input[type=checkbox]:checked ~ #burgercontent {
+    display: block;
+}
+
+#foldudmenu {
+    display: none;
+}
+
+#burgercontent a {
+    color: #18435a;
+    padding: 20px 20px;
+    display: block;
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+#burgercontent a:hover {
+    background-color: #ddd;
+}
+
+#menu {
+    display: none;
+}
+
+/* Main
+.........................................................................*/
+
+
+/* Sommerkampagne side 1
+...............................*/
+
+
+#sommerkampagne {
+    margin-bottom: 6%
+}
+
+#sommerkampagne h2 {
+    font-size: 4em;
+    margin: 2% 0 2% 0;
+    letter-spacing: 0.3em;
+    font-family: 'Amatic SC', cursive;
+}
+
+#sommerkampagne h3 {
+    font-size: 2em;
+    margin-bottom: 2%;
+    letter-spacing: 0.5em;
+    font-family: 'Amatic SC', cursive;
+}
+
+#sommerkampagne h2,
+#sommerkampagne h3,
+#overskrift-kampagne p {
+    text-align: center;
+    color: #5b5959;
+}
+
+.ikonerkamp img {
+    width: 45%;
+    float: left;
+    margin-right: 2%
+}
+
+.ikonerkamp {
+    display: inline-block;
+    margin: 3%
+}
+
+.ikonerkamp p {
+    font-size: 0.8em;
+    line-height: 1em;
+    color: #5b5959;
+}
+
+#overskrift-kampagne p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+/* Vores is side 2
+...............................*/
+
+#voresis {
+    background-color: #cce0e5
+}
+
+#voresis h2 {
+    font-size: 4em;
+    margin-bottom: 4%;
+    padding-top: 6%;
+    font-family: 'Amatic SC', cursive;
+}
+
+#voresis h2,
+#voresis p {
+    margin-left: 2%;
+    color: #18435a;
+    line-height: 1.5em;
+}
+
+#alleis {
+    display: flex;
+    margin-top: 2%;
+}
+
+#is1 img {
+    width: 98%;
+    margin: 0 1% 0 1%
+}
+
+#is2 img {
+    width: 98%;
+    margin: 0 1% 0 1%
+}
+
+
+/* konkurrence side 3
+...............................*/
+
+#konkurrence {
+    margin: 0 2% 0 2%
+}
+
+#konkurrence h2 {
+    font-size: 4em;
+    margin-bottom: 4%;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 10%;
+    text-align: right;
+    color: #5b5959;
+}
+
+#konkurrence p {
+    text-align: right;
+    line-height: 1.5em;
+    color: #5b5959;
+}
+
+#sporgsmal {
+    margin-top: 4%;
+}
+
+#sporgsmal p {
+    text-align: center;
+}
+
+#svarmuligheder {
+    margin: 2% 0 2% 0; color: #5b5959;
+}
+
+form input {
+    border-style: solid;
+    border-color: #18435a;
+    border-radius: 25px;
+}
+
+#indsend {
+    background-color: #18435a;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.2em;
+    padding: 0 5% 0 5%;
+}
+
+#indsend:hover {text-decoration: underline;}
+
+#sporgsmal {
+    text-align: center;
+}
+
+/* Find cyklen side 4
+...............................*/
+#find {
+    background-color: #cce0e5;
+    margin-top: 10%;
+}
+
+#find h2 {
+    padding-top: 6%;
+    font-size: 3em;
+    margin-bottom: 4%;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #18435a;
+}
+
+#find p {
+    text-align: center;
+    margin-bottom: 3%;
+    color: #18435a;
+}
+
+#find img {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+/* Del din is side 5
+...............................*/
+
+#del h2 {
+    font-size: 4em;
+    margin-bottom: 4%;
+    font-family: 'Amatic SC', cursive;
+    margin-top: 10%;
+    text-align: center;
+    color: #5b5959
+}
+
+#del h4,
+#del h5,
+#del p {
+    text-align: center;
+    color: #5b5959
+}
+
+#fbinsta {
+    display: flex;
+    justify-content: center;
+}
+
+#del h5 {
+    margin: 2%;
+}
+
+#del h4 {
+    background-color: #18435a;
+    border-radius: 25px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1.5%;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 2%
+}
+
+#del h4 a {
+    color: white;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #18435a;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px; width: 30%;
+}
+
+
+
+/* Footer
+.........................................................................*/
+
+footer {
+    background-color: #cce0e5;
+}
+
+footer h2,
+footer h3 {
+    margin-left: 1%;
+}
+
+footer h2 {
+    margin-bottom: 1%;
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+    color: #18435a;
+}
+
+footer h3 {
+    line-height: 1.5em;
+}
+
+footer article {display: flex;}
+
+#ikoner img {width: 25%; margin: 12% 4% 0 0; float: right;}
+#info {width: 75%}
+
+
+
+/* @media query! Skærme over XXXpx
+..................................................................*/
+
+@media only screen and (min-width: 375px) {
+
+    .ikonerkamp p {
+        font-size: 0.8em;
+        line-height: 1.4
+    }
+
+    .ikonerkamp img {
+        width: 39%
+    }
+
+    h2 {
+        font-size: 6em;
+    }
+
+    #sommerkampagne h3 {
+        font-size: 2.5em;
+        margin-bottom: 2%
+    }
+
+}
+
+@media only screen and (min-width: 450px) {
+
+    .ikonerkamp p {
+        padding-top: 6%
+    }
+
+}
+
+
+@media only screen and (min-width: 500px) {
+
+    #logo {
+        max-width: 160px;
+    }
+
+}
+
+@media only screen and (min-width: 650px) {
+
+    #navn-tlf p {
+        font-size: 2em;
+    }
+
+    #svarmuligheder {
+        font-size: 1.5em;
+    }
+
+    #navn-tlf input {
+        padding: 1% 15% 1% 15%
+    }
+
+    #indsend {
+        font-size: 2em;
+        padding: 0 4% 0 4%
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+
+    #sommerkampagne h2,
+    #voresis h2,
+    #konkurrence h2,
+    #find h2,
+    #del h2 {
+        font-size: 5em;
+        margin-bottom: 1%;
+        padding-top: 2%;
+        margin-top: 2%
+    }
+
+
+    /* Sommerkampagne side 1
+...............................*/
+
+    #sommerkampagne h3 {
+        font-size: 3em;
+        margin-bottom: 2%
+    }
+
+    #overskrift-kampagne p {
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .ikonerkamp p {
+        font-size: 1.3em;
+        line-height: 1.5;
+        padding-top: 4%
+    }
+
+    .ikonerkamp img {
+        width: 30%
+    }
+
+
+    /* Vores is side 2
+...............................*/
+
+    #voresis h2 {
+        padding-top: 2%
+    }
+
+    #voresis p,
+    #konkurrence p {
+        font-size: 1.3em;
+        line-height: 1.5;
+    }
+
+
+    #alleis {
+        display: inline-block;
+        margin-left: 0.4%
+    }
+
+    #is1 img {
+        width: 33%;
+        margin: 0 auto
+    }
+
+    #is2 img {
+        width: 33%;
+        margin: 0 auto;
+    }
+
+
+
+    /* Del side 3
+...............................*/
+
+
+    #del h4 {
+        font-size: 3em
+    }
+
+    #del h5 {
+        font-size: 2.3em
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+    /* Menu til desktop
+...............................*/
+
+    nav li {
+        display: inline;
+    }
+
+    nav a {
+        color: #19435a;
+        font-size: 1.5em;
+        font-family: 'Dosis', sans-serif;
+        padding: 2%
+    }
+
+    header {
+        height: 144.55px
+    }
+
+    #menu {
+        display: block;
+        width: 75%;
+        float: right;
+        margin-top: 6%
+    }
+
+    #logo {
+        float: left;
+    }
+
+    #burgerdropdown {
+        display: none;
+    }
+
+
+    /* Sommerkampagne side 1
+...............................*/
+
+    #sommerkampagne {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .ikonerkamp img {
+        width: 21%
+    }
+
+    #sommerkampagne h2 {
+        font-size: 7em;
+    }
+
+    #sommerkampagne h3 {
+        letter-spacing: 0.8em
+    }
+
+    #sommerkampagne p {
+        font-size: 1.3em
+    }
+
+    /* Vores Is side 2
+...............................*/
+    #voresis h2,
+    #voresis p {
+        margin: 0 10% 0 10%;
+    }
+
+    #voresis h2 {
+        margin-bottom: 1%
+    }
+
+    #alleis {
+        width: 80%;
+        margin-left: 10%
+    }
+
+    #is2 img {
+        margin-bottom: 2%
+    }
+
+    /* konkurrence side 3
+...............................*/
+
+    #konkurrence {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    #konkurrence p {
+        font-size: 1.4em
+    }
+
+    /* Find side 4
+...............................*/
+
+    #find p {
+        font-size: 1.4em
+    }
+
+    /* Del side 5
+...............................*/
+
+
+
+    .container {
+        width: 33.09%;
+        margin: 2% 0 2% 0;  display: inline-block;
+    }
+    
+    .text {padding: 5px 10px; width: 25%;}
+
+    #del h2 {
+        margin-top: 5%
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    nav a {
+        color: #19435a;
+        font-size: 1.8em;
+        font-family: 'Dosis', sans-serif;
+        padding: 2%
+    }
+
+    #menu {
+        display: block;
+        width: 75%;
+        float: right;
+        margin-top: 4.5%
+    }
+
+}
